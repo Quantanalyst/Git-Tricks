@@ -25,12 +25,7 @@ First it confirms where you want to save the key (.ssh/id_rsa), and then it asks
 Now, each user that does this has to send their public key to you or whoever is administrating the Git server (assuming you’re using an SSH server setup that requires public keys). All they have to do is copy the contents of the .pub file and email it. The public keys look something like this:
 
 **$** cat ~/.ssh/id_rsa.pub\
-ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAklOUpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSU
-GPl+nafzlHDTYW7hdI4yZ5ew18JH4JW9jbhUFrviQzM7xlELEVf4h9lFX5QVkbPppSwg0cda3
-Pbv7kOdJ/MTyBlWXFCR+HAo3FXRitBqxiX1nKhXpHAZsMciLq8V6RjsNAQwdsdMFvSlVK/7XA
-t3FaoJoAsncM1Q9x5+3V0Ww68/eIFmb1zuUFljQJKprrX88XypNDvjYNby6vw/Pb0rwert/En
-mZ+AW4OZPnTPI89ZPmVMLuayrD2cE86Z/il8b+gw3r3+1nKatmIkjn2so1d01QraTlMqVSsbx
-NrRFi9wrf+M7Q== schacon@mylaptop.local
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCsA8nVNOGdOE/JwDvX7tM/TdR2G33PE3pHpor+QpklTHdYMz0o/WGtdAN95rP2iTtDB4y2vW2bzobYporH4KiWLaIj0C0XYXvz1gMDOlxwPVDZSWlYrMy8NRbErUpV6C4zJ6LetQxgQ/EwraCWSXjhC8jYb3D8pqf7Z3LpnNy/TI3tDvl5QXDTWk4kO3VbxxYPmkPma+GM4qq7N6iGTmmLg/QRg95L358OLWFaP9MD4ySjUEj5MKwkgy5nV1zy00zNbfuUs6BcYtPL/tSxZCnRnEwxPjzOfxgpJUSPRmd0GkvO0iSLXZQ56UAdRzuU04hrNoLJEd5jhARgOnvM9MoZ saeed@saeed-ThinkPad-X1-Carbon
 
 
 
