@@ -13,6 +13,9 @@ $ git checkout -b < branchname >
 $ git branch -d < branchname >
 
 Note: To delete a remote branch you can use the following command:\
-$ git push <remote_name> --delete <branch_name>
+$ git push < remote_name > --delete < branch_name >
+
+* In order to synch your local and remote repo, you must push the new branches to the remote repo.
+$ git push < remote_name > < branch_name >
 
 
