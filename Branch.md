@@ -17,5 +17,8 @@ $ git push < remote_name > --delete < branch_name >
 
 * In order to synch your local and remote repo, you must push the new branches to the remote repo.
 $ git push < remote_name > < branch_name >
+* If you have a new branch on your remote repo, you can't just pull that repo directly from the remote. You must create a branch locally that tracks that remote branch by:\
+$ git checkout --track < remote_branch >
+
 
 
