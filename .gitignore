@@ -1,1 +1,5 @@
 # ignore files
+/test.md
+
+# ignore folders
+PersonalFolder/
