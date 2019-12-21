@@ -6,7 +6,7 @@ Types of Merge:
 
 
 
-In order to test an idea, we typically create a new branch and test our ideas on that branch and when we finalized our changes, we merge them to our main branch. This process is called **merge**. In order to merge two branches, first you must checkout to the destination branch and use the below code:\
+In order to test an idea, we typically create a new branch and test our ideas on that branch and when we finalized our changes, we merge them to our main branch. This process is called **merge**. In order to """merge""" two branches, first you must checkout to the destination branch and use the below code:\
 $ git merge < target_branch > < destination_branch> 
 
 for example $ git merge feature_1 dev
