@@ -1,6 +1,6 @@
 # Git Basics
 
-* **Initialize** a folder to make it a git repo. You need to do it once.\
+* **Initialize** a folder to make it a git repo. You need to do it once by ```git init```\
 **$** git init
 
 * **Staging** a file moves that file from project directory to **staged** _state_ . In this state, we still can make changes to the file and those changes are not recorded.\
